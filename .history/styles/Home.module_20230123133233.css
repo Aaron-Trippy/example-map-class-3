@@ -1,19 +1,10 @@
-.employeeCard {
-  display: flex;
-}
-
 .main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-around;
   padding: 6rem;
   min-height: 100vh;
-}
-
-.aboutUs {
-  font-size: 24px;
-  color: rgb(81, 186, 255);
 }
 
 .description {
